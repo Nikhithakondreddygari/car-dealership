@@ -1,0 +1,117 @@
+.forgetcontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  @media (min-width: 768px) {
+    .forgetcontainer {
+      flex-direction: row;
+    }
+  }
+  
+  .form1-container,
+  .image-container {
+    flex: 1;
+  }
+  
+  .form1-container {
+    padding: 40px;
+    /* background-color: #9373de; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formcont1{
+    padding: 40px;
+    background-color: #d6d2e244;
+  }
+
+  .form-container1 h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+ .input{
+  color: black;
+ }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  /* .password-input {
+    position: relative;
+  } */
+/*   
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  } */
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9373de;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* .forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 0.875rem;
+    color: black;
+  } */
+  
+  /* .back-link {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.875rem;
+    color: black;
+  } */
+
+  .back-link {
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 40px;
+    font-size: medium;
+    font: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  .bcklnk {
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 115px;
+    /* margin-top: 40px; */
+    font-size: 0.875rem;
+    color: black;
+  }
+  
+ 
+  
